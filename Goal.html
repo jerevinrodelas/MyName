@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Personal Information</title>
+    <style>
+        
+    .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        
+    .navbar a {
+            width: 150px;
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: left;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        
+    .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        
+    .active {
+            background-color: #008000;
+        }
+
+       h1 {
+            font-size: 40px;
+            text-align: center;
+       }
+
+       p {
+            font-size: 20px;
+            font-weight: bold;
+       }
+      .container {
+            position: relative;
+            width: 50%;
+        }
+
+     .image {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+     .overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #008000;
+            overflow: hidden;
+            width: 100%;
+            height: 0;
+            transition:.5s ease;
+        }
+
+     .container:hover.overlay {
+            height: 100%;
+        }
+
+     .text {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<ul class="navbar"style="list-style-type: none;">
+ <li><a href="Home.html">Home</a></li>
+ <li><a href="Games.html">Games</a></li>
+ <li><a href="Friend .html">Friend</a></li>
+ <li><a href="favorite.html">Favorite</a></li>
+ <li><a href="Goal.html"class="active">Goal</a></li>
+</ul>
+<div class="container">
+    
+</body>
+</html>
+<h1>Goal</h1>
+    <p>My goal in my life:</p>
+    
+    <img src="d.jpg" alt="Image 1" class="image">
+    <div class="overlay">
+       <div class="text">Text 1</div>
+    </div>
+   </div>
+   
+   <div class="container">
+    <img src="c.jpg" alt="Image 2" class="image">
+    <div class="overlay">
+       <div class="text">Text 2</div>
+    </div>
+   </div>
+   
+   <div class="container">
+    <img src="b.jpg" alt="Image 3" class="image">
+    <div class="overlay">
+       <div class="text">Text 3</div>
+    </div>
+   </div>
+   
+   <div class="container">
+    <img src="a.jpg" alt="Image 4" class="image">
+    <div class="overlay">
+       <div class="text">Text 4</div>
+    </div>
+   </div>
